@@ -1,0 +1,33 @@
+{
+  "name": "africatvl-child",
+  "version": "1.0.0",
+  "description": "A Starter LSX Child Theme",
+  "main": "gulpfile.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lightspeeddevelopment/africatvl-child.git"
+  },
+  "keywords": [
+    "lsx",
+    "child",
+    "theme",
+    "starter"
+  ],
+  "author": "LightSpeed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lightspeeddevelopment/africatvl-child/issues"
+  },
+  "homepage": "https://github.com/lightspeeddevelopment/africatvl-child#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-jshint": "^2.0.4",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^2.0.1",
+    "jshint": "^2.9.4",
+    "gulp-wp-pot": "^2.0.3",
+    "gulp-sort": "^2.0.0",
+    "gulp-gettext": "^0.3.0"
+  }
+}
