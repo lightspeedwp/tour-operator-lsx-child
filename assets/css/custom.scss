@@ -61,6 +61,105 @@
 
 
 // ---------- Styles ----------
-body {
-	background-color: blue;
+
+/*** Variables ***/
+@font-face {
+	font-family: 'Crimson Text', serif;
+	src: url('../fonts/CrimsonText-Regular.ttf') format('truetype'),
+	url('../fonts/CrimsonText-RegularItalic.ttf') format('truetype'),
+	url('../fonts/CrimsonText-SemiBold.ttf') format('truetype'),
+	url('../fonts/CrimsonText-SemiBoldItalic.ttf') format('truetype'),
+	url('../fonts/CrimsonText-Bold.ttf') format('truetype'),
+	url('../fonts/CrimsonText-BoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Montserrat', sans-serif;
+	src: url('../fonts/Montserrat-Regular.ttf') format('truetype'),
+	url('../fonts/Montserrat-RegularItalic.ttf') format('truetype'),
+	url('../fonts/Montserrat-Bold.ttf') format('truetype'),
+	url('../fonts/Montserrat-BoldItalic.ttf') format('truetype');
+}
+
+$crim: 'Crimson Text', serif;
+$monset: 'Montserrat', sans-serif;
+$white: #ffffff;
+$light-gray: #F6F6F6;
+$light-blue-gray: #66777D;
+$dark-blue-gray: #41555B;
+$light-ochre: #AC9F7C;
+$dark-ochre: #6C6248;
+$light-accent: #824E4E;
+$dark-accent: #7D3E3E;
+$black: #000000;
+$blue: #418ad0;
+$dark-blue: #374750;
+$orange: #f7941d;
+$dark-orange: #eda700;
+$accent-red: #d84e2e;
+$font-color: #555555;
+$yellow-fb: #fbd44a;
+$yellow-icons: #ffdf00;
+$yellow-border: #edab21;
+
+/*** FONTS ***/
+
+h1, .content-area h1, .content-area #main h1 {
+	font-size: 60px;
+	font-weight: 700;
+	font-style: italic;
+	color: $font-color;
+	font-family: $crim;
+}
+
+h2, .content-area h2, .content-area #main h2 {
+	font-size: 35px;
+	font-weight: 700;
+	font-style: italic;
+	color: $font-color;
+	font-family: $crim;
+	@media (max-width: 767px) {
+		font-size: 26px !important;
+	}
+
+}
+
+h3, .content-area h3, .content-area #main h3 {
+	font-size: 28px;
+	font-weight: 700;
+	font-style: italic;
+	color: $font-color;
+	font-family: $crim;
+}
+
+h4, .content-area h3, .content-area #main h3 {
+	font-size: 26px;
+	font-weight: 700;
+	font-style: italic;
+	color: $font-color;
+	font-family: $crim;
+}
+
+h5, .content-area h5, .content-area #main h5 {
+	font-size: 22px;
+	font-weight: 700;
+	font-style: italic;
+	color: $font-color;
+	font-family: $crim;
+}
+
+p {
+	font-size: 16px;
+	font-weight: normal;
+	color: $font-color;
+	font-family: $monset;
+	line-height: 26px;
+}
+
+ul {
+	li {
+		font-size: 16px;
+		line-height: 36px;
+		font-family: $monset;
+	}
 }
