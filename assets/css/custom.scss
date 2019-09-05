@@ -112,13 +112,9 @@ h1, .content-area h1, .content-area #main h1 {
 	font-family: $crim;
 }
 
-h1, .content-area h1, .content-area #main h1.entry-title {
+.content-area #main h1.entry-title {
 	font-size: 22px;
-	font-weight: 700;
-	font-style: italic;
-	color: $font-color;
-	font-family: $crim;
-}
+ }
 
 h2, .content-area h2, .content-area #main h2 {
 	font-size: 35px;

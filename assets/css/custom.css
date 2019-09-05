@@ -20,12 +20,8 @@ h1, .content-area h1, .content-area #main h1 {
   color: #555555;
   font-family: "Crimson Text", serif; }
 
-h1, .content-area h1, .content-area #main h1.entry-title {
-  font-size: 22px;
-  font-weight: 700;
-  font-style: italic;
-  color: #555555;
-  font-family: "Crimson Text", serif; }
+.content-area #main h1.entry-title {
+  font-size: 22px; }
 
 h2, .content-area h2, .content-area #main h2 {
   font-size: 35px;
