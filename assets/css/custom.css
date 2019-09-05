@@ -93,6 +93,9 @@ ul li {
 .lsx-button, .btn, .lsx-block-button .lsx-button {
   font-weight: 700; }
 
+#lsx-banner h1.page-title {
+  color: #ffffff; }
+
 /*** FOOTER STYLE ***/
 #footer-widgets h3.widget-title {
   color: #AC9F7C; }
