@@ -83,5 +83,12 @@ ul li {
   padding-left: 30px;
   margin-right: 0px; }
 
+.home .one-third-left .home-white-boxes {
+  background: linear-gradient(0deg, #ffffff54, #ffffff54 55%, #fffefe54);
+  padding-top: 26px;
+  padding-bottom: 20px;
+  padding-right: 30px;
+  margin-left: 0px; }
+
 .lsx-button, .btn, .lsx-block-button .lsx-button {
   font-weight: 700; }
