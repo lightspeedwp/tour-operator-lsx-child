@@ -167,3 +167,19 @@ ul {
 		font-family: $monset;
 	}
 }
+
+/*** HOME GALLERY STYLE ***/
+
+.home {
+	.wp-block-gallery {
+		.blocks-gallery-item figcaption {
+			padding: 5px 10px 5px;
+			text-align: center;
+			font-size: 28px;
+			font-weight: 500;
+			font-style: italic;
+			font-family: $crim;
+			background: linear-gradient(0deg, #00000040, #00000040 40%, #00000040);
+		}
+	}
+} 
