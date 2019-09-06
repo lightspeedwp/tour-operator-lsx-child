@@ -103,7 +103,8 @@ ul li {
   padding-bottom: 2%; }
   .page.about #main .our-team-experts .lsx-container-content h2.white {
     font-size: 48px;
-    font-weight: 500; }
+    font-weight: 500;
+    line-height: 52px; }
 
 /*** DESTINATION PAGE STYLE ***/
 .archive.post-type-archive.post-type-archive-lsx-to-destination h3.lsx-to-archive-content-title {
