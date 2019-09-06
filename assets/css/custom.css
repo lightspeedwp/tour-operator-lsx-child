@@ -66,6 +66,10 @@ ul li {
   line-height: 36px;
   font-family: "Montserrat", sans-serif; }
 
+/*** GENERAL STYLE ***/
+.primary-navbar {
+  align-items: flex-end; }
+
 /*** HOME GALLERY STYLE ***/
 .home .wp-block-gallery .blocks-gallery-item figcaption {
   padding: 5px 10px 5px;
