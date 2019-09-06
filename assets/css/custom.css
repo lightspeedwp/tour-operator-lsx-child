@@ -4,15 +4,19 @@
  * @package 	africatvl-child
  */
 /*** Variables ***/
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
 @font-face {
   font-family: 'Crimson Text', serif;
   src: url("../fonts/CrimsonText-Regular.ttf") format("truetype"), url("../fonts/CrimsonText-RegularItalic.ttf") format("truetype"), url("../fonts/CrimsonText-SemiBold.ttf") format("truetype"), url("../fonts/CrimsonText-SemiBoldItalic.ttf") format("truetype"), url("../fonts/CrimsonText-Bold.ttf") format("truetype"), url("../fonts/CrimsonText-BoldItalic.ttf") format("truetype"); }
 
-@font-face {
-  font-family: 'Montserrat', sans-serif;
-  src: url("../fonts/Montserrat-Regular.ttf") format("truetype"), url("../fonts/Montserrat-RegularItalic.ttf") format("truetype"), url("../fonts/Montserrat-Bold.ttf") format("truetype"), url("../fonts/Montserrat-BoldItalic.ttf") format("truetype"); }
-
 /*** FONTS ***/
+* {
+  font-family: "Montserrat", sans-serif; }
+
+.lsx-to-widget-title a,
+.lsx-to-archive-content-title a {
+  font-family: "Crimson Text", serif; }
+
 h1, .content-area h1, .content-area #main h1 {
   font-size: 60px;
   font-weight: 700;
@@ -129,6 +133,27 @@ ul li {
   color: #ffffff; }
 
 /*** FOOTER STYLE ***/
+#footer-cta {
+  background-image: url(../../images/footer.jpg);
+  background-size: cover;
+  background-position: center; }
+  #footer-cta .container .lsx-full-width .wpforms-widget {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 12px 4.25rem; }
+    #footer-cta .container .lsx-full-width .wpforms-widget .wpforms-container form.wpforms-form .wpforms-head-container .wpforms-description {
+      font-family: "Montserrat", sans-serif;
+      font-size: 18px;
+      font-weight: 300; }
+    #footer-cta .container .lsx-full-width .wpforms-widget .wpforms-container form.wpforms-form .wpforms-field-container {
+      float: left;
+      width: 69%; }
+    #footer-cta .container .lsx-full-width .wpforms-widget .wpforms-container form.wpforms-form .wpforms-submit-container .wpforms-submit {
+      background-color: #824E4E;
+      box-shadow: 2px 2px 0 0 #7D3E3E;
+      font-family: "Montserrat", sans-serif;
+      font-size: 15px;
+      font-weight: normal; }
+
 #footer-widgets {
   padding: 0px 0 0rem; }
   #footer-widgets .widget {
