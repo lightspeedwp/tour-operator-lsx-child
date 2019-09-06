@@ -255,6 +255,19 @@ ul {
 	}
 }
 
+/*** TO PAGES GENERAL STYLING ***/
+
+.single {
+	.lsx-to-navigation {
+		ul.scroll-easing.nav {
+			li.active a {
+				background-color: #ac9f7c;
+				color: #ffffff;
+			}
+		}
+	}
+}
+
 /*** FOOTER STYLE ***/
 
 #footer-widgets {
