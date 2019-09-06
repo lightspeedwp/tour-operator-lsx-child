@@ -96,6 +96,15 @@ ul li {
 #lsx-banner h1.page-title {
   color: #ffffff; }
 
+/*** ABOUT PAGE STYLE ***/
+.page.about #main .our-team-experts .lsx-container-content {
+  background: linear-gradient(0deg, #00000040, #00000040 40%, #00000040);
+  padding-top: 1.5%;
+  padding-bottom: 2%; }
+  .page.about #main .our-team-experts .lsx-container-content h2.white {
+    font-size: 48px;
+    font-weight: 500; }
+
 /*** DESTINATION PAGE STYLE ***/
 .archive.post-type-archive.post-type-archive-lsx-to-destination h3.lsx-to-archive-content-title {
   margin-bottom: 0rem; }
