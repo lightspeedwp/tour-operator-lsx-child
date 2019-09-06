@@ -106,3 +106,6 @@ ul li {
 /*** FOOTER STYLE ***/
 #footer-widgets h3.widget-title {
   color: #AC9F7C; }
+
+footer.content-info p.credit {
+  color: #ffffff; }
