@@ -96,6 +96,13 @@ ul li {
 #lsx-banner h1.page-title {
   color: #ffffff; }
 
+/*** DESTINATION PAGE STYLE ***/
+.archive.post-type-archive.post-type-archive-lsx-to-destination h3.lsx-to-archive-content-title {
+  margin-bottom: 0rem; }
+
+.archive.post-type-archive.post-type-archive-lsx-to-destination .lsx-to-archive-meta-data {
+  margin-top: 0rem; }
+
 /*** FOOTER STYLE ***/
 #footer-widgets h3.widget-title {
   color: #AC9F7C; }

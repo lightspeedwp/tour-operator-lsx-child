@@ -101,6 +101,9 @@ $font-color: #555555;
 $yellow-fb: #fbd44a;
 $yellow-icons: #ffdf00;
 $yellow-border: #edab21;
+$white-boxes: linear-gradient(0deg, #ffffff54, #ffffff54 55%, #fffefe54);
+$dark-boxes: linear-gradient(0deg, #00000040, #00000040 40%, #00000040);
+
 
 /*** FONTS ***/
 
@@ -179,7 +182,7 @@ ul {
 			font-weight: 500;
 			font-style: italic;
 			font-family: $crim;
-			background: linear-gradient(0deg, #00000040, #00000040 40%, #00000040);
+			background: $dark-boxes;
 		}
 	}
 }
@@ -187,7 +190,7 @@ ul {
 .home {
 	.one-third-right {
 		.home-white-boxes {
-			background: linear-gradient(0deg, #ffffff54, #ffffff54 55%, #fffefe54);
+			background: $white-boxes;
 			padding-top: 26px;
 			padding-bottom: 20px;
 			padding-left: 30px;
@@ -196,7 +199,7 @@ ul {
 	} 
 	.one-third-left {
 		.home-white-boxes {
-			background: linear-gradient(0deg, #ffffff54, #ffffff54 55%, #fffefe54);
+			background: $white-boxes;
 			padding-top: 26px;
 			padding-bottom: 20px;
 			padding-right: 30px;
@@ -212,6 +215,17 @@ ul {
 #lsx-banner {
 	h1.page-title {
 		color: $white
+	}
+}
+
+/*** DESTINATION PAGE STYLE ***/
+
+.archive.post-type-archive.post-type-archive-lsx-to-destination {
+	h3.lsx-to-archive-content-title {
+		margin-bottom: 0rem;
+	}
+	.lsx-to-archive-meta-data {
+		margin-top: 0rem;
 	}
 }
 
