@@ -33,6 +33,7 @@ class Frontend {
 	 */
 	private function __construct() {
 		add_action( 'wp_enqueue_scripts', array( $this, 'scripts' ), 11 );
+		add_filter( 'pre_get_posts', array( $this, 'destination_query_order' ), 300 );
 	}
 
 	/**
@@ -67,5 +68,15 @@ class Frontend {
 
 		wp_enqueue_style( 'africatvl-child-styles', get_stylesheet_directory_uri() . '/custom.css' );
 		wp_enqueue_script( 'africatvl-child-scripts', get_stylesheet_directory_uri() . '/assets/js/custom.min.js', array( 'jquery' ) );
+	}
+	/**
+	 * Set the special query to be limited to 4 items.
+	 */
+	public function destination_query_order( $query ) {
+		if ( ! is_admin() && $query->is_main_query() && $query->is_archive( array( 'destination' ) ) && $query->is_post_type_archive( 'destination' ) ) {
+			$query->set( 'order', 'ASC' );
+			$query->set( 'orderby', 'title' );
+		}
+		return $query;
 	}	
 }
