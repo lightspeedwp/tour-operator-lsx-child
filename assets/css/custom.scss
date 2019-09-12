@@ -197,6 +197,27 @@ ul {
 	}
 }
 
+body:not(.home) {
+	#lsx-banner {
+		.page-banner-wrap {
+			.page-banner {
+				min-height: 400px;
+			}
+		}
+	}
+	.wp-block-lsx-blocks-lsx-banner-box {
+		.lsx-banner-column {
+			.lsx-banner-image-wrap {
+				min-height: 400px;
+				img#bg-image {
+					min-height: 400px;
+				}
+			}
+		}
+	}
+}
+
+
 /*** GENERAL STYLE ***/
 
 .primary-navbar {
