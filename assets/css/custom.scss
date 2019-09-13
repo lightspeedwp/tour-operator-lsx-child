@@ -272,6 +272,17 @@ body:not(.home) {
 	}
 }
 
+.home {
+	.wp-block-lsx-blocks-lsx-banner-box {
+		.lsx-banner-content-wrap {
+			.header-headings {
+
+				max-width: 85%;
+			}
+		}
+	}
+}
+
 /*** ABOUT PAGE STYLE ***/
 
 .page.about {

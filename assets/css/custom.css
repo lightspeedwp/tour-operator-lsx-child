@@ -113,6 +113,9 @@ body:not(.home) .wp-block-lsx-blocks-lsx-banner-box .lsx-banner-column .lsx-bann
 #lsx-banner h1.page-title {
   color: #ffffff; }
 
+.home .wp-block-lsx-blocks-lsx-banner-box .lsx-banner-content-wrap .header-headings {
+  max-width: 85%; }
+
 /*** ABOUT PAGE STYLE ***/
 .page.about #main .lsx-block-container .lsx-title > small {
   font-size: 22px;
