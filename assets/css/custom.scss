@@ -274,9 +274,17 @@ body:not(.home) {
 
 .home {
 	.wp-block-lsx-blocks-lsx-banner-box {
+		.lsx-banner-column {
+			.lsx-banner-image-wrap {
+				max-height: 582px;
+				img#bg-image {
+					max-height: 582px;
+					object-fit: unset;
+				}
+			}
+		}
 		.lsx-banner-content-wrap {
 			.header-headings {
-
 				max-width: 85%;
 			}
 		}

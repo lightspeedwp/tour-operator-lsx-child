@@ -113,6 +113,12 @@ body:not(.home) .wp-block-lsx-blocks-lsx-banner-box .lsx-banner-column .lsx-bann
 #lsx-banner h1.page-title {
   color: #ffffff; }
 
+.home .wp-block-lsx-blocks-lsx-banner-box .lsx-banner-column .lsx-banner-image-wrap {
+  max-height: 582px; }
+  .home .wp-block-lsx-blocks-lsx-banner-box .lsx-banner-column .lsx-banner-image-wrap img#bg-image {
+    max-height: 582px;
+    object-fit: unset; }
+
 .home .wp-block-lsx-blocks-lsx-banner-box .lsx-banner-content-wrap .header-headings {
   max-width: 85%; }
 
