@@ -281,6 +281,18 @@ body:not(.home) {
 			}
 		}
 	}
+	.our-team-experts {
+		.lsx-container-content {
+			background: $dark-boxes;
+			padding-top: 1.5%;
+			padding-bottom: 2%;
+			h2.white {
+				font-size: 48px;
+				font-weight: 500;
+				line-height: 52px;
+			}
+		}
+	}
 }
 
 /*** ABOUT PAGE STYLE ***/
