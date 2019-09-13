@@ -121,9 +121,9 @@ body:not(.home) .wp-block-lsx-blocks-lsx-banner-box .lsx-banner-column .lsx-bann
   padding-top: 1.5%;
   padding-bottom: 2%; }
   .home .our-team-experts .lsx-container-content h2.white {
-    font-size: 48px;
-    font-weight: 500;
-    line-height: 52px; }
+    font-size: 48px !important;
+    font-weight: 500 !important;
+    line-height: 52px !important; }
 
 /*** ABOUT PAGE STYLE ***/
 .page.about #main .lsx-block-container .lsx-title > small {

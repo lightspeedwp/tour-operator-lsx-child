@@ -287,9 +287,9 @@ body:not(.home) {
 			padding-top: 1.5%;
 			padding-bottom: 2%;
 			h2.white {
-				font-size: 48px;
-				font-weight: 500;
-				line-height: 52px;
+				font-size: 48px !important;
+				font-weight: 500 !important;
+				line-height: 52px !important;
 			}
 		}
 	}
