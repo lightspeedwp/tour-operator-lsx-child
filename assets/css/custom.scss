@@ -443,3 +443,36 @@ footer.content-info {
 		color: $white;
 	}
 }
+
+/*** FOOTER MOBILE STYLE ***/
+
+#footer-widgets {
+	.container {
+		.row {
+			.widget_text {
+				@media (max-width: 767px) {
+					width: 100%;
+				}
+				@media (min-width: 768px) and (max-width: 900px) {
+					width: 101%;
+					padding-right: 0px;
+    				padding-left: 0px;
+				}
+				aside#custom_html-2 {
+					@media only (min-width: 1024px) {
+						padding-top: 15%;
+    					padding-bottom: 18%;
+					}
+				}
+			}
+			.col-md-3:not(.widget_text) {
+				@media (max-width: 767px) {
+					padding-left: 4.25rem;
+				}
+				@media (min-width: 768px) and (max-width: 900px) {
+					padding-left: 4.25rem;
+				}
+			}
+		}
+	}
+}

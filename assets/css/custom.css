@@ -214,3 +214,27 @@ body:not(.home) .wp-block-lsx-blocks-lsx-banner-box .lsx-banner-column .lsx-bann
 
 footer.content-info p.credit {
   color: #ffffff; }
+
+/*** FOOTER MOBILE STYLE ***/
+@media (max-width: 767px) {
+  #footer-widgets .container .row .widget_text {
+    width: 100%; } }
+
+@media (min-width: 768px) and (max-width: 900px) {
+  #footer-widgets .container .row .widget_text {
+    width: 101%;
+    padding-right: 0px;
+    padding-left: 0px; } }
+
+@media (min-width: 1024px) {
+  #footer-widgets .container .row .widget_text aside#custom_html-2 {
+    padding-top: 15%;
+    padding-bottom: 18%; } }
+
+@media (max-width: 767px) {
+  #footer-widgets .container .row .col-md-3:not(.widget_text) {
+    padding-left: 4.25rem; } }
+
+@media (min-width: 768px) and (max-width: 900px) {
+  #footer-widgets .container .row .col-md-3:not(.widget_text) {
+    padding-left: 4.25rem; } }
