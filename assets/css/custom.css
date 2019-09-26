@@ -132,6 +132,9 @@ body:not(.home) .wp-block-lsx-blocks-lsx-banner-box .lsx-banner-column .lsx-bann
     line-height: 52px !important; }
 
 /*** ABOUT PAGE STYLE ***/
+.page.about #main .lsx-block-container .lsx-title {
+  margin: 0.5rem auto 40px; }
+
 .page.about #main .lsx-block-container .lsx-title > small {
   font-size: 22px;
   font-style: normal;
