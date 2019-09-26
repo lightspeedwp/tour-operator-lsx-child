@@ -467,6 +467,9 @@ footer.content-info {
 	.container {
 		.lsx-hero-unit {
 			aside#wpforms-widget-2 {
+				@media (min-width: 768px) and (max-width: 900px) {
+					width: 65%;
+				}
 				.wpforms-container  {
 					.wpforms-field-container {
 						@media (max-width: 767px) {

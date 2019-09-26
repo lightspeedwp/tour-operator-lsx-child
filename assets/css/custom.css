@@ -224,6 +224,10 @@ footer.content-info p.credit {
   .home .our-team-experts .lsx-container-inside .lsx-container-content h2.white {
     line-height: 30px !important; } }
 
+@media (min-width: 768px) and (max-width: 900px) {
+  #footer-cta .container .lsx-hero-unit aside#wpforms-widget-2 {
+    width: 65%; } }
+
 @media (max-width: 767px) {
   #footer-cta .container .lsx-hero-unit aside#wpforms-widget-2 .wpforms-container .wpforms-field-container {
     width: 100%; } }
