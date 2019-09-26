@@ -309,7 +309,9 @@ body:not(.home) {
 	#main {
 		.lsx-block-container {
 			.lsx-title {
-				margin: 0.5rem auto 40px;
+				&:after {
+					margin: 0.5rem auto 40px;
+				}
 			}
 			.lsx-title>small {
 				font-size: 22px;

@@ -132,7 +132,7 @@ body:not(.home) .wp-block-lsx-blocks-lsx-banner-box .lsx-banner-column .lsx-bann
     line-height: 52px !important; }
 
 /*** ABOUT PAGE STYLE ***/
-.page.about #main .lsx-block-container .lsx-title {
+.page.about #main .lsx-block-container .lsx-title:after {
   margin: 0.5rem auto 40px; }
 
 .page.about #main .lsx-block-container .lsx-title > small {
