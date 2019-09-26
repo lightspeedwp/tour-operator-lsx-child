@@ -476,3 +476,17 @@ footer.content-info {
 		}
 	}
 }
+
+footer#colophon {
+	.container {
+		.row {
+			#footer-navigation {
+				ul#menu-terms li {
+					@media (max-width: 767px) {
+						font-size: 14px;
+					}
+				}
+			}
+		}
+	}
+}

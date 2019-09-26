@@ -238,3 +238,7 @@ footer.content-info p.credit {
 @media (min-width: 768px) and (max-width: 900px) {
   #footer-widgets .container .row .col-md-3:not(.widget_text) {
     padding-left: 4.25rem; } }
+
+@media (max-width: 767px) {
+  footer#colophon .container .row #footer-navigation ul#menu-terms li {
+    font-size: 14px; } }
