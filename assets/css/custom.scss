@@ -152,7 +152,7 @@ h2, .content-area h2, .content-area #main h2 {
 	color: $font-color;
 	font-family: $crim;
 	@media (max-width: 767px) {
-		font-size: 26px !important;
+		font-size: 30px !important;
 	}
 
 }
@@ -280,12 +280,18 @@ body:not(.home) {
 				img#bg-image {
 					max-height: 582px;
 					object-fit: unset;
+					@media (max-width: 767px) {
+						object-fit: cover;
+					}
 				}
 			}
 		}
 		.lsx-banner-content-wrap {
 			.header-headings {
 				max-width: 85%;
+				@media (max-width: 767px) {
+					max-width: 100%;
+				}
 			}
 		}
 	}

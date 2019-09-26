@@ -35,7 +35,7 @@ h2, .content-area h2, .content-area #main h2 {
   font-family: "Crimson Text", serif; }
   @media (max-width: 767px) {
     h2, .content-area h2, .content-area #main h2 {
-      font-size: 26px !important; } }
+      font-size: 30px !important; } }
 
 h3, .content-area h3, .content-area #main h3 {
   font-size: 28px;
@@ -118,9 +118,15 @@ body:not(.home) .wp-block-lsx-blocks-lsx-banner-box .lsx-banner-column .lsx-bann
   .home .wp-block-lsx-blocks-lsx-banner-box .lsx-banner-column .lsx-banner-image-wrap img#bg-image {
     max-height: 582px;
     object-fit: unset; }
+    @media (max-width: 767px) {
+      .home .wp-block-lsx-blocks-lsx-banner-box .lsx-banner-column .lsx-banner-image-wrap img#bg-image {
+        object-fit: cover; } }
 
 .home .wp-block-lsx-blocks-lsx-banner-box .lsx-banner-content-wrap .header-headings {
   max-width: 85%; }
+  @media (max-width: 767px) {
+    .home .wp-block-lsx-blocks-lsx-banner-box .lsx-banner-content-wrap .header-headings {
+      max-width: 100%; } }
 
 .home .our-team-experts .lsx-container-content {
   background: linear-gradient(0deg, #00000040, #00000040 40%, #00000040);
