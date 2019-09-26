@@ -217,6 +217,18 @@ footer.content-info p.credit {
 
 /*** FOOTER MOBILE STYLE ***/
 @media (max-width: 767px) {
+  #footer-cta .container .lsx-hero-unit aside#wpforms-widget-2 .wpforms-container .wpforms-field-container {
+    width: 100%; } }
+
+@media (min-width: 768px) and (max-width: 900px) {
+  #footer-cta .container .lsx-hero-unit aside#wpforms-widget-2 .wpforms-container .wpforms-field-container {
+    width: 100%; } }
+
+@media (min-width: 1024px) {
+  #footer-cta .container .lsx-hero-unit aside#wpforms-widget-2 .wpforms-container .wpforms-field-container {
+    width: 60%; } }
+
+@media (max-width: 767px) {
   #footer-widgets .container .row .widget_text {
     width: 100%; } }
 
