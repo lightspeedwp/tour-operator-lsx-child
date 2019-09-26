@@ -217,6 +217,10 @@ footer.content-info p.credit {
 
 /*** FOOTER MOBILE STYLE ***/
 @media (max-width: 767px) {
+  .home .our-team-experts .lsx-container-content {
+    max-width: 340px; } }
+
+@media (max-width: 767px) {
   #footer-cta .container .lsx-hero-unit aside#wpforms-widget-2 .wpforms-container .wpforms-field-container {
     width: 100%; } }
 

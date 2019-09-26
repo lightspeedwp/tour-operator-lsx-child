@@ -445,6 +445,17 @@ footer.content-info {
 }
 
 /*** FOOTER MOBILE STYLE ***/
+
+.home {
+	.our-team-experts {
+		.lsx-container-content {
+			@media (max-width: 767px) {
+				max-width: 340px;
+			}
+		}
+	}
+}
+
 #footer-cta {
 	.container {
 		.lsx-hero-unit {
