@@ -451,7 +451,12 @@ footer.content-info {
 		.lsx-container-inside {
 			.lsx-container-content {
 				@media (max-width: 767px) {
-					max-width: 340px;
+					max-width: 340px !important;
+				}
+				h2.white {
+					@media (max-width: 767px) {
+						line-height: 30px !important;
+					}
 				}
 			}
 		}
