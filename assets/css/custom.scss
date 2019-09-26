@@ -449,8 +449,10 @@ footer.content-info {
 .home {
 	.our-team-experts {
 		.lsx-container-content {
-			@media (max-width: 767px) {
-				max-width: 340px;
+			.lsx-container-inside {
+				@media (max-width: 767px) {
+					max-width: 340px;
+				}
 			}
 		}
 	}

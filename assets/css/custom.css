@@ -217,7 +217,7 @@ footer.content-info p.credit {
 
 /*** FOOTER MOBILE STYLE ***/
 @media (max-width: 767px) {
-  .home .our-team-experts .lsx-container-content {
+  .home .our-team-experts .lsx-container-content .lsx-container-inside {
     max-width: 340px; } }
 
 @media (max-width: 767px) {
