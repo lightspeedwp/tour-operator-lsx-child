@@ -339,6 +339,26 @@ body:not(.home) {
 	}
 }
 
+.home {
+	#primary {
+		.wp-block-lsx-blocks-lsx-container {
+			.lsx-container-inside {
+				.wp-block-tour-operator-block-taxonomy {
+					.blsx-taxonomy-bodytn {
+						.slider-container {
+							.slick-list {
+								.lsx-to-widget-thumb {
+									pointer-events: none;
+									cursor: default;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
 /*** ABOUT PAGE STYLE ***/
 
 .page.about {

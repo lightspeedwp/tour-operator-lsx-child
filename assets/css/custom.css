@@ -155,6 +155,10 @@ body:not(.home) .wp-block-lsx-blocks-lsx-banner-box .lsx-banner-column .lsx-bann
   .home .see-all-camps .lsx-container-inside .lsx-container-content .wp-block-column {
     padding-left: 15px; } }
 
+.home #primary .wp-block-lsx-blocks-lsx-container .lsx-container-inside .wp-block-tour-operator-block-taxonomy .blsx-taxonomy-bodytn .slider-container .slick-list .lsx-to-widget-thumb {
+  pointer-events: none;
+  cursor: default; }
+
 /*** ABOUT PAGE STYLE ***/
 .page.about #main .lsx-block-container .lsx-title:after {
   margin: 0.5rem auto 40px; }
