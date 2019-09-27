@@ -137,6 +137,9 @@ body:not(.home) .wp-block-lsx-blocks-lsx-banner-box .lsx-banner-column .lsx-bann
     font-weight: 500 !important;
     line-height: 52px !important; }
 
+.home .see-all-tours .lsx-container-inside .lsx-container-content .wp-block-column h2.white {
+  font-size: 48px !important; }
+
 @media (max-width: 767px) {
   .home .see-all-tours .lsx-container-inside .lsx-container-content .wp-block-column {
     padding-left: 15px;
@@ -145,6 +148,9 @@ body:not(.home) .wp-block-lsx-blocks-lsx-banner-box .lsx-banner-column .lsx-bann
 @media (min-width: 768px) and (max-width: 900px) {
   .home .see-all-tours .lsx-container-inside .lsx-container-content .wp-block-column {
     padding-right: 15px; } }
+
+.home .see-all-camps .lsx-container-inside .lsx-container-content .wp-block-column h2.white {
+  font-size: 48px !important; }
 
 @media (max-width: 767px) {
   .home .see-all-camps .lsx-container-inside .lsx-container-content .wp-block-column {

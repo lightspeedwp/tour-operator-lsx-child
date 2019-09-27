@@ -311,6 +311,9 @@ body:not(.home) {
 		.lsx-container-inside {
 			.lsx-container-content {
 				.wp-block-column {
+					h2.white {
+						font-size: 48px !important;
+					}
 					@media (max-width: 767px) {
 						padding-left: 15px;
     					padding-right: 15px;
@@ -326,6 +329,9 @@ body:not(.home) {
 		.lsx-container-inside {
 			.lsx-container-content {
 				.wp-block-column {
+					h2.white {
+						font-size: 48px !important;
+					}
 					@media (max-width: 767px) {
 						padding-right: 15px;
     					padding-left: 15px;
