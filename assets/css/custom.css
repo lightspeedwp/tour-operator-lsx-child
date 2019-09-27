@@ -264,7 +264,7 @@ footer.content-info p.credit {
   #footer-cta .container .lsx-hero-unit aside#wpforms-widget-2 .wpforms-container .wpforms-field-container {
     width: 100%; } }
 
-@media (min-width: 1024px) {
+@media (min-width: 900px) and (max-width: 1024px) {
   #footer-cta .container .lsx-hero-unit aside#wpforms-widget-2 .wpforms-container .wpforms-field-container {
     width: 60%; } }
 
