@@ -239,6 +239,30 @@ body:not(.home) {
 			background: $dark-boxes;
 		}
 	}
+	#primary {
+		#main {
+			.entry-content {
+				.wp-block-lsx-blocks-lsx-container {
+					.lsx-container-inside {
+						.lsx-container-content {
+							ul.explore-destinations-gallery {
+								display: flex;
+								li {
+									max-height: 323px;
+									flex: 1 1 25%;
+									margin-right: 10px;
+									margin-bottom: 10px;
+									&:first-child, &:last-child {
+										flex: 0 1 42%;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
 }
 
 .home {
