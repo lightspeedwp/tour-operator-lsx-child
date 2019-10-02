@@ -165,6 +165,10 @@ body:not(.home) .wp-block-lsx-blocks-lsx-banner-box .lsx-banner-column .lsx-bann
   pointer-events: none;
   cursor: default; }
 
+/*** BLOG STYLE ***/
+.single-post #primary #main .archive-header-wrapper .archive-header h1.archive-title {
+  font-size: 35px; }
+
 /*** ABOUT PAGE STYLE ***/
 .page.about #main .lsx-block-container .lsx-title:after {
   margin: 0.5rem auto 40px; }

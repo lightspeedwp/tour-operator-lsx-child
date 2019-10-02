@@ -365,6 +365,23 @@ body:not(.home) {
 		}
 	}
 }
+
+/*** BLOG STYLE ***/
+
+.single-post {
+	#primary {
+		#main {
+			.archive-header-wrapper {
+				.archive-header {
+					h1.archive-title {
+						font-size: 35px;
+					}
+				}
+			}
+		}
+	}
+}
+
 /*** ABOUT PAGE STYLE ***/
 
 .page.about {
