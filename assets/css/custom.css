@@ -97,7 +97,8 @@ body:not(.home) .wp-block-lsx-blocks-lsx-banner-box .lsx-banner-column .lsx-bann
     font-size: 28px;
     font-weight: 500;
     font-style: italic;
-    font-family: "Crimson Text", serif; }
+    font-family: "Crimson Text", serif;
+    color: #ffffff; }
 
 .home #primary #main .entry-content .wp-block-lsx-blocks-lsx-container .lsx-container-inside .lsx-container-content ul.explore-destinations-gallery {
   display: flex; }
