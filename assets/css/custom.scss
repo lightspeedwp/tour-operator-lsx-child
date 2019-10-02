@@ -266,7 +266,7 @@ body:not(.home) {
 								}
 								@media (max-width: 767px) {
 									li {
-										max-height: 315px;
+										min-height: 315px;
 										flex: 0 0 100%;
 										&:first-child, &:last-child {
 											flex: 0 0 100%;

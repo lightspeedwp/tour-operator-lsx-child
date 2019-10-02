@@ -111,7 +111,7 @@ body:not(.home) .wp-block-lsx-blocks-lsx-banner-box .lsx-banner-column .lsx-bann
       flex: 0 1 42%; }
   @media (max-width: 767px) {
     .home #primary #main .entry-content .wp-block-lsx-blocks-lsx-container .lsx-container-inside .lsx-container-content ul.explore-destinations-gallery li {
-      max-height: 315px;
+      min-height: 315px;
       flex: 0 0 100%; }
       .home #primary #main .entry-content .wp-block-lsx-blocks-lsx-container .lsx-container-inside .lsx-container-content ul.explore-destinations-gallery li:first-child, .home #primary #main .entry-content .wp-block-lsx-blocks-lsx-container .lsx-container-inside .lsx-container-content ul.explore-destinations-gallery li:last-child {
         flex: 0 0 100%; } }
