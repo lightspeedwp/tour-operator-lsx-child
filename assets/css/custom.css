@@ -87,7 +87,7 @@ body .breadcrumbs-container a:not(.btn) {
   color: #E0A139 !important; }
 
 @media (max-width: 1024px) {
-  .wrap.container .content #primary #main section.lsx-to-section.lsx-to-collapse-section h2.lsx-to-section-title.lsx-to-collapse-title.lsx-title {
+  .wrap.container .content #primary #main section h2.lsx-title {
     color: #ffffff;
     font-size: 18px !important;
     font-style: normal; } }
