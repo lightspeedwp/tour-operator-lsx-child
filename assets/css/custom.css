@@ -219,6 +219,10 @@ body .breadcrumbs-container a:not(.btn) {
   .page.about #main .widget.lsx-widget .slider-container .lsx-to-widget-item-wrap article p a.moretag {
     display: none; }
 
+.page.about #main .widget.lsx-widget .slider-container .lsx-to-widget-item-wrap article .lsx-to-widget-thumb img {
+  height: 100%;
+  object-fit: cover; }
+
 /*** DESTINATION PAGE STYLE ***/
 .archive.post-type-archive.post-type-archive-lsx-to-destination h3.lsx-to-archive-content-title {
   margin-bottom: 0rem; }
