@@ -103,6 +103,10 @@ body .breadcrumbs-container a:not(.btn) {
     font-weight: 700;
     font-style: italic;
     font-family: "Crimson Text", serif; }
+  .to-facts-wrapper #fast-facts .lsx-to-contact-widget .lsx-to-enquire-form {
+    background-color: #ce9100;
+    box-shadow: none;
+    color: #fff; }
 
 @media (max-width: 1024px) {
   .wrap.container .content #primary #main section h2.lsx-title {
