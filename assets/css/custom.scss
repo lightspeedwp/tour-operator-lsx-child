@@ -463,6 +463,20 @@ body {
 				}
 			}
 		}
+		.widget.lsx-widget {
+			.slider-container {
+				.lsx-to-widget-item-wrap {
+					article {
+						p {
+							text-align: center;
+							a.moretag {
+								display: none;
+							}
+						}
+					}
+				}
+			}
+		}
 	}
 }
 
