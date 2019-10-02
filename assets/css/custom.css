@@ -103,6 +103,8 @@ body .breadcrumbs-container a:not(.btn) {
     font-weight: 700;
     font-style: italic;
     font-family: "Crimson Text", serif; }
+    .to-facts-wrapper .lsx-to-contact-widget .lsx-to-contact-info h4.lsx-to-contact-name a:hover {
+      color: #ce9100; }
   .to-facts-wrapper .lsx-to-contact-widget .lsx-to-enquire-form a.btn {
     background-color: #ce9100;
     box-shadow: none;

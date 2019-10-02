@@ -263,6 +263,9 @@ body {
 					font-weight: 700;
 					font-style: italic;
 					font-family: "Crimson Text", serif;
+					&:hover {
+						color: #ce9100;
+					}
 				}
 			}
 		}
