@@ -264,6 +264,15 @@ body:not(.home) {
 										flex: 0 1 42%;
 									}
 								}
+								@media (max-width: 767px) {
+									li {
+										max-height: 315px;
+										flex: 0 0 100%;
+										&:first-child, &:last-child {
+											flex: 0 0 100%;
+										}
+									}
+								}
 							}
 						}
 					}
@@ -311,6 +320,7 @@ body:not(.home) {
 				max-height: 582px;
 				img#bg-image {
 					min-height: 582px;
+					max-height: 584px;
     				object-fit: cover;
 					@media (max-width: 767px) {
 						object-fit: cover;

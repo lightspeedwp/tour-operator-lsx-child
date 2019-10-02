@@ -109,6 +109,12 @@ body:not(.home) .wp-block-lsx-blocks-lsx-banner-box .lsx-banner-column .lsx-bann
     margin-bottom: 10px; }
     .home #primary #main .entry-content .wp-block-lsx-blocks-lsx-container .lsx-container-inside .lsx-container-content ul.explore-destinations-gallery li:first-child, .home #primary #main .entry-content .wp-block-lsx-blocks-lsx-container .lsx-container-inside .lsx-container-content ul.explore-destinations-gallery li:last-child {
       flex: 0 1 42%; }
+  @media (max-width: 767px) {
+    .home #primary #main .entry-content .wp-block-lsx-blocks-lsx-container .lsx-container-inside .lsx-container-content ul.explore-destinations-gallery li {
+      max-height: 315px;
+      flex: 0 0 100%; }
+      .home #primary #main .entry-content .wp-block-lsx-blocks-lsx-container .lsx-container-inside .lsx-container-content ul.explore-destinations-gallery li:first-child, .home #primary #main .entry-content .wp-block-lsx-blocks-lsx-container .lsx-container-inside .lsx-container-content ul.explore-destinations-gallery li:last-child {
+        flex: 0 0 100%; } }
 
 .home .one-third-right .home-white-boxes {
   background: linear-gradient(0deg, #ffffff54, #ffffff54 55%, #fffefe54);
@@ -134,6 +140,7 @@ body:not(.home) .wp-block-lsx-blocks-lsx-banner-box .lsx-banner-column .lsx-bann
   max-height: 582px; }
   .home .wp-block-lsx-blocks-lsx-banner-box .lsx-banner-column .lsx-banner-image-wrap img#bg-image {
     min-height: 582px;
+    max-height: 584px;
     object-fit: cover; }
     @media (max-width: 767px) {
       .home .wp-block-lsx-blocks-lsx-banner-box .lsx-banner-column .lsx-banner-image-wrap img#bg-image {
