@@ -267,9 +267,11 @@ body {
 			}
 		}
 		.lsx-to-enquire-form {
-			background-color: #ce9100;
-    		box-shadow: none;
-    		color: #fff;
+			a.btn {
+				background-color: #ce9100;
+    			box-shadow: none;
+				color: #fff;
+			}
 		}
 	}
 }
