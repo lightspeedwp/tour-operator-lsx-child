@@ -92,6 +92,12 @@ body:not(.home) .wp-block-lsx-blocks-lsx-banner-box .lsx-banner-column .lsx-bann
   font-style: italic;
   font-family: "Crimson Text", serif;
   background: linear-gradient(0deg, #00000040, #00000040 40%, #00000040); }
+  .home .wp-block-gallery .blocks-gallery-item figcaption a {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 500;
+    font-style: italic;
+    font-family: "Crimson Text", serif; }
 
 .home #primary #main .entry-content .wp-block-lsx-blocks-lsx-container .lsx-container-inside .lsx-container-content ul.explore-destinations-gallery {
   display: flex; }
