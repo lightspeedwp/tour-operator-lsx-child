@@ -92,6 +92,10 @@ body:not(.home) .wp-block-lsx-blocks-lsx-banner-box .lsx-banner-column .lsx-bann
 body .breadcrumbs-container a:not(.btn) {
   color: #E0A139 !important; }
 
+.to-facts-wrapper #fast-facts h3.lsx-to-section-title {
+  font-size: 28px;
+  color: #333333; }
+
 @media (max-width: 1024px) {
   .wrap.container .content #primary #main section h2.lsx-title {
     color: #ffffff;
