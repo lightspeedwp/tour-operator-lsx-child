@@ -23,6 +23,9 @@ h1, .content-area h1, .content-area #main h1 {
   font-style: italic;
   color: #555555;
   font-family: "Crimson Text", serif; }
+  @media (max-width: 767px) {
+    h1, .content-area h1, .content-area #main h1 {
+      font-size: 40px !important; } }
 
 .content-area #main h1.entry-title {
   font-size: 22px; }
