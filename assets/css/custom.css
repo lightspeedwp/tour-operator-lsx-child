@@ -87,7 +87,7 @@ body .breadcrumbs-container a:not(.btn) {
   color: #E0A139 !important; }
 
 @media (max-width: 1024px) {
-  .wrap.container .content #primary #main section#summary h2.lsx-to-section-title.lsx-to-collapse-title.lsx-title.hidden-lg {
+  .wrap.container .content #primary #main section h2.lsx-to-section-title.lsx-to-collapse-title.lsx-title.hidden-lg {
     color: #ffffff;
     font-size: 18px !important;
     font-style: normal; } }
