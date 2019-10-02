@@ -83,6 +83,9 @@ body:not(.home) .wp-block-lsx-blocks-lsx-banner-box .lsx-banner-column .lsx-bann
   align-items: flex-end;
   text-transform: uppercase; }
 
+body .breadcrumbs-container a:not(.btn) {
+  color: #E0A139 !important; }
+
 /*** HOME GALLERY STYLE ***/
 .home .wp-block-gallery .blocks-gallery-item figcaption {
   padding: 5px 10px 5px;
