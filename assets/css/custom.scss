@@ -310,8 +310,8 @@ body:not(.home) {
 			.lsx-banner-image-wrap {
 				max-height: 582px;
 				img#bg-image {
-					max-height: 582px;
-					object-fit: unset;
+					min-height: 582px;
+    				object-fit: cover;
 					@media (max-width: 767px) {
 						object-fit: cover;
 					}

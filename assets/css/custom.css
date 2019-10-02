@@ -133,8 +133,8 @@ body:not(.home) .wp-block-lsx-blocks-lsx-banner-box .lsx-banner-column .lsx-bann
 .home .wp-block-lsx-blocks-lsx-banner-box .lsx-banner-column .lsx-banner-image-wrap {
   max-height: 582px; }
   .home .wp-block-lsx-blocks-lsx-banner-box .lsx-banner-column .lsx-banner-image-wrap img#bg-image {
-    max-height: 582px;
-    object-fit: unset; }
+    min-height: 582px;
+    object-fit: cover; }
     @media (max-width: 767px) {
       .home .wp-block-lsx-blocks-lsx-banner-box .lsx-banner-column .lsx-banner-image-wrap img#bg-image {
         object-fit: cover; } }
