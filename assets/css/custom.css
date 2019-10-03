@@ -85,12 +85,11 @@ body:not(.home) .wp-block-lsx-blocks-lsx-banner-box .lsx-banner-column .lsx-bann
 #masthead .navbar-header .custom-logo-link > img {
   max-height: 75px; }
 
-#masthead .navbar-header .primary-navbar #menu-main-menu li.menu-item a {
-  padding: 0 12px; }
-
 .primary-navbar {
   align-items: flex-end;
   text-transform: uppercase; }
+  .primary-navbar #menu-main-menu li.menu-item a {
+    padding: 0 12px; }
 
 body .breadcrumbs-container a:not(.btn) {
   color: #E0A139 !important; }

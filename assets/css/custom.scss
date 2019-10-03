@@ -229,21 +229,19 @@ body:not(.home) {
 		.custom-logo-link>img {
 			max-height: 75px;
 		}
-	.primary-navbar {
-			#menu-main-menu {
-				li.menu-item {
-					a {
-						padding: 0 12px;
-					}
-				}
-			}
-		}
 	}
 }
 
 .primary-navbar {
 	align-items: flex-end;
 	text-transform: uppercase;
+	#menu-main-menu {
+		li.menu-item {
+			a {
+				padding: 0 12px;
+			}
+		}
+	}
 }
 
 body {
