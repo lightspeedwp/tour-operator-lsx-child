@@ -275,6 +275,17 @@ body .breadcrumbs-container a:not(.btn) {
   color: #ffffff;
   font-family: "Crimson Text", serif; }
 
+/*** CONTACT PAGE STYLE ***/
+.contact #primary #main .entry-content .wp-block-lsx-blocks-lsx-container .lsx-container-inside .lsx-container-content .lsx-title:after {
+  margin: 0.4rem auto 0; }
+
+.contact #primary #main .entry-content .general-contact-info .lsx-container-inside .lsx-container-content .wp-block-columns {
+  display: flex; }
+  .contact #primary #main .entry-content .general-contact-info .lsx-container-inside .lsx-container-content .wp-block-columns .wp-block-column {
+    flex: 1; }
+  .contact #primary #main .entry-content .general-contact-info .lsx-container-inside .lsx-container-content .wp-block-columns .column-our-info {
+    background-color: #EBE9E4; }
+
 /*** FOOTER STYLE ***/
 #footer-cta {
   background-image: url(../../images/footer.jpg);
