@@ -89,7 +89,7 @@ body:not(.home) .wp-block-lsx-blocks-lsx-banner-box .lsx-banner-column .lsx-bann
   align-items: flex-end;
   text-transform: uppercase; }
   .primary-navbar #menu-main-menu li.menu-item a {
-    padding: 0 12px; }
+    padding: 0 12px !important; }
 
 body .breadcrumbs-container a:not(.btn) {
   color: #E0A139 !important; }
