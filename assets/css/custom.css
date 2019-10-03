@@ -85,7 +85,7 @@ body:not(.home) .wp-block-lsx-blocks-lsx-banner-box .lsx-banner-column .lsx-bann
 #masthead .navbar-header .custom-logo-link > img {
   max-height: 75px; }
 
-#masthead .navbar-header #menu-main-menu li.menu-item a {
+#masthead .navbar-header .primary-navbar #menu-main-menu li.menu-item a {
   padding: 0 12px; }
 
 .primary-navbar {
