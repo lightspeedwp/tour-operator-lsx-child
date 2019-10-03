@@ -267,6 +267,14 @@ body .breadcrumbs-container a:not(.btn) {
   background-color: #ac9f7c;
   color: #ffffff; }
 
+/*** SEARCH STYLE ***/
+.search-results .banner-search .archive-header .archive-title span {
+  font-size: 60px;
+  font-weight: 700;
+  font-style: italic;
+  color: #ffffff;
+  font-family: "Crimson Text", serif; }
+
 /*** FOOTER STYLE ***/
 #footer-cta {
   background-image: url(../../images/footer.jpg);

@@ -573,6 +573,24 @@ body {
 	}
 }
 
+/*** SEARCH STYLE ***/
+
+.search-results {
+	.banner-search {
+		.archive-header {
+			.archive-title {
+				span {
+					font-size: 60px;
+    				font-weight: 700;
+    				font-style: italic;
+    				color: #ffffff;
+    				font-family: "Crimson Text", serif;
+				}
+			}
+		}
+	}
+}
+
 /*** FOOTER STYLE ***/
 
 #footer-cta {
