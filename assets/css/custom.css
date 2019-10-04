@@ -285,11 +285,17 @@ body .breadcrumbs-container a:not(.btn) {
 
 .contact #primary #main .entry-content .general-contact-info .lsx-container-inside .lsx-container-content .wp-block-columns {
   display: flex; }
-  .contact #primary #main .entry-content .general-contact-info .lsx-container-inside .lsx-container-content .wp-block-columns .wp-block-column {
-    flex: 1; }
+  .contact #primary #main .entry-content .general-contact-info .lsx-container-inside .lsx-container-content .wp-block-columns .column-general-contact {
+    flex: 1 1 60%;
+    max-width: 100% !important; }
+    .contact #primary #main .entry-content .general-contact-info .lsx-container-inside .lsx-container-content .wp-block-columns .column-general-contact .container-general-contact {
+      padding-left: 25% !important; }
   .contact #primary #main .entry-content .general-contact-info .lsx-container-inside .lsx-container-content .wp-block-columns .column-our-info {
+    flex: 1 1 40%;
     background-color: #EBE9E4;
     max-width: 100%; }
+    .contact #primary #main .entry-content .general-contact-info .lsx-container-inside .lsx-container-content .wp-block-columns .column-our-info .container-our-info {
+      padding-right: 25% !important; }
 
 /*** FOOTER STYLE ***/
 #footer-cta {

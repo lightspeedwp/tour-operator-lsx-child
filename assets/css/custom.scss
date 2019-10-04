@@ -625,12 +625,20 @@ body {
 						.lsx-container-content {
 							.wp-block-columns {
 								display: flex; 
-								.wp-block-column {
-									flex: 1;
+								.column-general-contact {
+									flex: 1 1 60%;
+									max-width: 100% !important;
+									.container-general-contact {
+										padding-left: 25% !important;
+									}
 								}
 								.column-our-info {
+									flex: 1 1 40%;
 									background-color: #EBE9E4;
 									max-width: 100%;
+									.container-our-info {
+										padding-right: 25% !important;
+									}
 								}
 							}
 						}
