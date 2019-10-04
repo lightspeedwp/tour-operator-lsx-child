@@ -294,8 +294,6 @@ body .breadcrumbs-container a:not(.btn) {
     flex: 1 1 40%;
     background-color: #EBE9E4;
     max-width: 100%; }
-    .contact #primary #main .entry-content .general-contact-info .lsx-container-inside .lsx-container-content .wp-block-columns .column-our-info .container-our-info {
-      padding-right: 25% !important; }
 
 /*** FOOTER STYLE ***/
 #footer-cta {
