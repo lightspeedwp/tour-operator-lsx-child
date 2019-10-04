@@ -628,8 +628,15 @@ body {
 								.column-general-contact {
 									flex: 1 1 60%;
 									max-width: 100% !important;
+									@media (max-width: 780px) {
+										flex: none;
+									}
 									.container-general-contact {
 										padding-left: 25% !important;
+										@media (max-width: 780px) {
+											padding-left: 0 !important;
+											padding-right: 0 !important;
+										}
 										.lsx-container-content {
 											.wpforms-container  {
 												#wpforms-171-field_5-container {
@@ -638,6 +645,10 @@ body {
 													#wpforms-171-field_5 {
 														input {
 															margin: 12px 10px 0 3px;
+															@media (max-width: 780px) {
+																margin: -6px 10px 0px 3px;
+																padding: 5px;
+															}
 														}
 													}
 												}
@@ -659,7 +670,14 @@ body {
 									flex: 1 1 40%;
 									background-color: #EBE9E4;
 									max-width: 100%;
+									@media (max-width: 780px) {
+										flex: none;
+									}
 									.container-our-info {
+										@media (max-width: 780px) {
+											padding-left: 0 !important;
+											padding-right: 0 !important;
+										}
 										.lsx-shadow {
 											.lsx-container-content {
 												.wp-block-lsx-blocks-lsx-button {
