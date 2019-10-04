@@ -290,10 +290,25 @@ body .breadcrumbs-container a:not(.btn) {
     max-width: 100% !important; }
     .contact #primary #main .entry-content .general-contact-info .lsx-container-inside .lsx-container-content .wp-block-columns .column-general-contact .container-general-contact {
       padding-left: 25% !important; }
+      .contact #primary #main .entry-content .general-contact-info .lsx-container-inside .lsx-container-content .wp-block-columns .column-general-contact .container-general-contact .lsx-container-content .wpforms-container #wpforms-171-field_5-container {
+        padding: 0;
+        margin: 0; }
+        .contact #primary #main .entry-content .general-contact-info .lsx-container-inside .lsx-container-content .wp-block-columns .column-general-contact .container-general-contact .lsx-container-content .wpforms-container #wpforms-171-field_5-container #wpforms-171-field_5 input {
+          margin: 12px 10px 0 3px; }
+      .contact #primary #main .entry-content .general-contact-info .lsx-container-inside .lsx-container-content .wp-block-columns .column-general-contact .container-general-contact .lsx-container-content .wpforms-container .wpforms-submit-container {
+        padding-top: 0px;
+        margin-top: 10px; }
+        .contact #primary #main .entry-content .general-contact-info .lsx-container-inside .lsx-container-content .wp-block-columns .column-general-contact .container-general-contact .lsx-container-content .wpforms-container .wpforms-submit-container .wpforms-submit {
+          width: 100%;
+          background-color: #522020;
+          box-shadow: none;
+          color: #fff; }
   .contact #primary #main .entry-content .general-contact-info .lsx-container-inside .lsx-container-content .wp-block-columns .column-our-info {
     flex: 1 1 40%;
     background-color: #EBE9E4;
     max-width: 100%; }
+    .contact #primary #main .entry-content .general-contact-info .lsx-container-inside .lsx-container-content .wp-block-columns .column-our-info .container-our-info .lsx-shadow .lsx-container-content .wp-block-lsx-blocks-lsx-button a.lsx-button {
+      width: 100%; }
 
 /*** FOOTER STYLE ***/
 #footer-cta {
