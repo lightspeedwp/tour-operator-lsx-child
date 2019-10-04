@@ -288,7 +288,8 @@ body .breadcrumbs-container a:not(.btn) {
   .contact #primary #main .entry-content .general-contact-info .lsx-container-inside .lsx-container-content .wp-block-columns .wp-block-column {
     flex: 1; }
   .contact #primary #main .entry-content .general-contact-info .lsx-container-inside .lsx-container-content .wp-block-columns .column-our-info {
-    background-color: #EBE9E4; }
+    background-color: #EBE9E4;
+    max-width: 100%; }
 
 /*** FOOTER STYLE ***/
 #footer-cta {
