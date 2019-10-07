@@ -774,6 +774,9 @@ body {
 			p {
 				a {
 					color: $light-ochre;
+					&:hover {
+						color: $light-blue-gray;
+					}
 				}
 			}
 
@@ -782,6 +785,9 @@ body {
 			li.menu-see-all {
 				a {
 					color: $light-ochre;
+					&:hover {
+						color: $light-blue-gray;
+					}
 				}
 			}
 		}
@@ -797,6 +803,9 @@ body {
 				.menu- {
 					a {
 						color: $light-ochre;
+						&:hover {
+							color: $light-blue-gray;
+						}
 					}
 				}
 			}
