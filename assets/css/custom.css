@@ -376,9 +376,14 @@ body .breadcrumbs-container a:not(.btn) {
       margin-top: 0; }
     #footer-widgets .row .widget_text.col-md-3 #media_image-2 {
       padding-bottom: 10%; }
+    #footer-widgets .row .widget_text.col-md-3 p a {
+      color: #AC9F7C; }
+    #footer-widgets .row .widget_text.col-md-3 li.menu-see-all {
+      color: #AC9F7C; }
   #footer-widgets .row #nav_menu-4 #menu-footer-menu .footer-quick-icons {
     float: left;
-    margin-right: 5px; }
+    margin-right: 5px;
+    color: #AC9F7C; }
   #footer-widgets h3.widget-title {
     color: #AC9F7C; }
 
