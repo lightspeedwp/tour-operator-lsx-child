@@ -378,12 +378,13 @@ body .breadcrumbs-container a:not(.btn) {
       padding-bottom: 10%; }
     #footer-widgets .row .widget_text.col-md-3 p a {
       color: #AC9F7C; }
-    #footer-widgets .row .widget_text.col-md-3 li.menu-see-all {
+    #footer-widgets .row .widget_text.col-md-3 li.menu-see-all a {
       color: #AC9F7C; }
   #footer-widgets .row #nav_menu-4 #menu-footer-menu .footer-quick-icons {
     float: left;
-    margin-right: 5px;
-    color: #AC9F7C; }
+    margin-right: 5px; }
+    #footer-widgets .row #nav_menu-4 #menu-footer-menu .footer-quick-icons a {
+      color: #AC9F7C; }
   #footer-widgets h3.widget-title {
     color: #AC9F7C; }
 

@@ -777,7 +777,9 @@ body {
 				}
 			}
 			li.menu-see-all {
-				color: $light-ochre;
+				a {
+					color: $light-ochre;
+				}
 			}
 
 		}
@@ -786,7 +788,9 @@ body {
 				.footer-quick-icons {
 					float: left;
 					margin-right: 5px;
-					color: $light-ochre;
+					a {
+						color: $light-ochre;
+					}
 				}
 			}
 		}
