@@ -40,6 +40,10 @@ h2, .content-area h2, .content-area #main h2 {
     h2, .content-area h2, .content-area #main h2 {
       font-size: 30px !important; } }
 
+@media (max-width: 767px) {
+  .home .content-area #main h2.lsx-banner-name {
+    font-size: 60px !important; } }
+
 h3, .content-area h3, .content-area #main h3 {
   font-size: 28px;
   font-weight: 700;
@@ -225,6 +229,9 @@ body .breadcrumbs-container a:not(.btn) {
 .home #primary .wp-block-lsx-blocks-lsx-container .lsx-container-inside .wp-block-tour-operator-block-taxonomy .blsx-taxonomy-bodytn .slider-container .slick-list .lsx-to-widget-thumb {
   pointer-events: none;
   cursor: default; }
+
+.home h2.lsx-banner-name {
+  font-size: 60px; }
 
 /*** BLOG STYLE ***/
 .single-post #primary #main .archive-header-wrapper .archive-header h1.archive-title {

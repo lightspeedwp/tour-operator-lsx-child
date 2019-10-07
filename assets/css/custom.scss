@@ -161,6 +161,12 @@ h2, .content-area h2, .content-area #main h2 {
 
 }
 
+.home .content-area #main h2.lsx-banner-name {
+	@media (max-width: 767px) {
+		font-size: 60px !important;
+	}
+ }
+
 h3, .content-area h3, .content-area #main h3 {
 	font-size: 28px;
 	font-weight: 700;
@@ -399,6 +405,8 @@ body {
 	}
 }
 
+
+
 .home {
 	.wp-block-lsx-blocks-lsx-banner-box {
 		.lsx-banner-column {
@@ -491,6 +499,9 @@ body {
 				}
 			}
 		}
+	}
+	h2.lsx-banner-name {
+		font-size: 60px;
 	}
 }
 
