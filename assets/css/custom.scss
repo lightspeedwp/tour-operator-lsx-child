@@ -264,6 +264,11 @@ body {
 				color: $breadcrumbs !important;
 			}
 		}
+		span {
+            @media (max-width:767px) {
+                display: inline;
+            }
+        }
 	} 
 }
 
