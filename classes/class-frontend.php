@@ -34,6 +34,7 @@ class Frontend {
 	private function __construct() {
 		add_action( 'wp_enqueue_scripts', array( $this, 'scripts' ), 11 );
 		add_filter( 'pre_get_posts', array( $this, 'destination_query_order' ), 300 );
+		add_filter( 'lsx_to_has_destination_banner_map', array( $this, 'disable_single_map' ), 10, 1 );
 	}
 
 	/**
@@ -66,7 +67,6 @@ class Frontend {
 		// Google Fonts. Add these lines if your website will use a different font.
 		//wp_enqueue_style( 'africatvl-child-quattrocento-sans', 'https://fonts.googleapis.com/css?family=Quattrocento+Sans:400,400i,700,700i' );
 
-		wp_enqueue_style( 'africatvl-child-styles', get_stylesheet_directory_uri() . '/custom.css' );
 		wp_enqueue_script( 'africatvl-child-scripts', get_stylesheet_directory_uri() . '/assets/js/custom.min.js', array( 'jquery' ) );
 	}
 	/**
@@ -78,5 +78,18 @@ class Frontend {
 			$query->set( 'orderby', 'title' );
 		}
 		return $query;
-	}	
+	}
+
+	/**
+	 * Removes map for single destinations
+	 *
+	 * @param boolean $enabled
+	 * @return void
+	 */
+	public function disable_single_map( $enabled = false ) {
+		if ( is_singular( 'destination' ) ) {
+			$enabled = false;
+		}
+		return $enabled;
+	}
 }

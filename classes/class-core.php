@@ -1,7 +1,7 @@
 <?php
-namespace lsx_starter_child_theme\classes;
+namespace africatvl_child\classes;
 /**
- * @package   lsx_starter_child_theme\classes
+ * @package   africatvl_child\classes
  * @author    LightSpeed
  * @license   GPL-2.0+
  * @link
@@ -10,7 +10,7 @@ namespace lsx_starter_child_theme\classes;
 
 /**
  * Class Core
- * @package lsx_starter_child_theme\classes
+ * @package africatvl_child\classes
  */
 class Core {
 
@@ -19,27 +19,27 @@ class Core {
 	 *
 	 * @since 1.0.0
 	 *
-	 * @var      object lsx_starter_child_theme\classes\Core()
+	 * @var      object africatvl_child\classes\Core()
 	 */
 	protected static $instance = null;
 
 	/**
-	 * @var object lsx_starter_child_theme\classes\Setup();
+	 * @var object africatvl_child\classes\Setup();
 	 */
 	public $setup;
 
 	/**
-	 * @var object lsx_starter_child_theme\classes\Admin();
+	 * @var object africatvl_child\classes\Admin();
 	 */
 	public $admin;
 
 	/**
-	 * @var object lsx_starter_child_theme\classes\Frontend();
+	 * @var object africatvl_child\classes\Frontend();
 	 */
 	public $frontend;
 
 	/**
-	 * @var object lsx_starter_child_theme\classes\Search();
+	 * @var object africatvl_child\classes\Search();
 	 */
 	public $search;
 
@@ -66,7 +66,7 @@ class Core {
 	 *
 	 * @since 1.0.0
 	 *
-	 * @return    object lsx_starter_child_theme\classes\Core()    A single instance of this class.
+	 * @return    object africatvl_child\classes\Core()    A single instance of this class.
 	 */
 	public static function get_instance() {
 
