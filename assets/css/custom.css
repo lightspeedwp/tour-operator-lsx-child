@@ -94,6 +94,9 @@ body:not(.home) .wp-block-lsx-blocks-lsx-banner-box .lsx-banner-column .lsx-bann
   text-transform: uppercase; }
   .primary-navbar #menu-main-menu li.menu-item a {
     padding: 0 12px !important; }
+    @media (max-width: 1199px) {
+      .primary-navbar #menu-main-menu li.menu-item a {
+        padding: 10px 12px !important; } }
   .primary-navbar #menu-main-menu li.menu-item ul.dropdown-menu li.menu-item a {
     padding: 12px 40px 12px 15px !important; }
 

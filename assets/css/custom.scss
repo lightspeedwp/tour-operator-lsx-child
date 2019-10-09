@@ -245,6 +245,9 @@ body:not(.home) {
 		li.menu-item {
 			a {
 				padding: 0 12px !important;
+				@media (max-width:1199px) {
+                    padding: 10px 12px !important;
+                }
 			}
 			ul.dropdown-menu {
 				li.menu-item {
