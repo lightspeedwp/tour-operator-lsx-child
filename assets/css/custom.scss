@@ -776,10 +776,11 @@ body {
 		margin-left: 0px;
 	}
 	.row {
-		.widget_text.col-md-3 {
-			width: 34%;
+		.widget_text {
+			background-color: white;
 			aside#custom_html-2 {
-				background-color: white;
+				//width: 34%;
+				
     			color: #555555;
     			padding-top: 6%;
     			padding-bottom: 13%;
@@ -898,10 +899,10 @@ footer.content-info {
     				padding-left: 0px;
 				}
 				aside#custom_html-2 {
-					@media only (min-width: 1024px) {
-						padding-top: 15%;
-    					padding-bottom: 18%;
-					}
+					// @media only (min-width: 1024px) {
+					// 	padding-top: 15%;
+    				// 	padding-bottom: 18%;
+					// }
 				}
 			}
 			.col-md-3:not(.widget_text) {
