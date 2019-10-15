@@ -77,8 +77,12 @@ ul li {
   line-height: 36px;
   font-family: "Montserrat", sans-serif; }
 
-body:not(.home) #lsx-banner .page-banner-wrap .page-banner {
-  min-height: 400px; }
+@media (min-width: 900px) {
+  body:not(.home) #lsx-banner .page-banner-wrap .page-banner {
+    min-height: 400px; } }
+
+body:not(.home) #lsx-banner .page-banner-wrap .page-banner .banner-content .tagline {
+  color: white; }
 
 body:not(.home) .wp-block-lsx-blocks-lsx-banner-box .lsx-banner-column .lsx-banner-image-wrap {
   min-height: 400px; }
@@ -350,19 +354,24 @@ body .breadcrumbs-container a:not(.btn) {
   #footer-cta .container .lsx-full-width .wpforms-widget {
     background: rgba(255, 255, 255, 0.8);
     padding: 12px 4.25rem; }
-    #footer-cta .container .lsx-full-width .wpforms-widget .wpforms-container form.wpforms-form .wpforms-head-container .wpforms-description {
-      font-family: "Montserrat", sans-serif;
-      font-size: 18px;
-      font-weight: 300; }
-    #footer-cta .container .lsx-full-width .wpforms-widget .wpforms-container form.wpforms-form .wpforms-field-container {
-      float: left;
-      width: 69%; }
-    #footer-cta .container .lsx-full-width .wpforms-widget .wpforms-container form.wpforms-form .wpforms-submit-container .wpforms-submit {
-      background-color: #522020;
-      box-shadow: 2px 2px 0 0 #7d3e3e;
-      font-family: "Montserrat", sans-serif;
-      font-size: 15px;
-      font-weight: normal; }
+    #footer-cta .container .lsx-full-width .wpforms-widget .wpforms-container {
+      min-height: 100px; }
+      #footer-cta .container .lsx-full-width .wpforms-widget .wpforms-container form.wpforms-form .wpforms-head-container .wpforms-description {
+        font-family: "Montserrat", sans-serif;
+        font-size: 18px;
+        font-weight: 300; }
+      #footer-cta .container .lsx-full-width .wpforms-widget .wpforms-container form.wpforms-form .wpforms-field-container {
+        float: left;
+        width: 69%; }
+      #footer-cta .container .lsx-full-width .wpforms-widget .wpforms-container form.wpforms-form .wpforms-submit-container {
+        width: 30%;
+        float: right; }
+        #footer-cta .container .lsx-full-width .wpforms-widget .wpforms-container form.wpforms-form .wpforms-submit-container .wpforms-submit {
+          background-color: #522020;
+          box-shadow: 2px 2px 0 0 #7d3e3e;
+          font-family: "Montserrat", sans-serif;
+          font-size: 15px;
+          font-weight: normal; }
 
 #footer-widgets {
   padding: 0px 0 0rem; }
@@ -388,6 +397,8 @@ body .breadcrumbs-container a:not(.btn) {
       padding-left: 5%;
       padding-right: 5%;
       margin-top: 0; }
+    #footer-widgets > .container > .row .widget_text aside div {
+      background-color: transparent; }
     #footer-widgets > .container > .row .widget_text #media_image-2 {
       padding-bottom: 10%; }
     #footer-widgets > .container > .row .widget_text p a {

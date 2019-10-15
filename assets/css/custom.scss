@@ -211,7 +211,15 @@ body:not(.home) {
 	#lsx-banner {
 		.page-banner-wrap {
 			.page-banner {
-				min-height: 400px;
+				@media (min-width: 900px) {
+					min-height: 400px;
+				}
+				
+				.banner-content {
+					.tagline {
+						color: white;
+					}
+				}
 			}
 		}
 	}
@@ -729,6 +737,7 @@ body {
 				background: rgba(255,255,255,0.8);
 				padding: 12px 4.25rem;
 				.wpforms-container {
+					min-height: 100px;
 					form.wpforms-form {
 						.wpforms-head-container {
 							.wpforms-description {
@@ -742,6 +751,8 @@ body {
     						width: 69%;
 						}
 						.wpforms-submit-container {
+							width: 30%;
+    						float: right;
 							.wpforms-submit {
 								background-color: #522020;
 								box-shadow: 2px 2px 0 0 #7d3e3e;
@@ -783,14 +794,17 @@ body {
 			}
 			.widget_text {
 				aside#custom_html-2 {
-					//width: 34%;
-					
 					color: #555555;
 					padding-top: 6%;
 					padding-bottom: 13%;
 					padding-left: 5%;
 					padding-right: 5%;
 					margin-top: 0;
+				}
+				aside {
+					div {
+					background-color: transparent;
+					}
 				}
 				#media_image-2 {
 					padding-bottom: 10%;
