@@ -613,6 +613,17 @@ body {
 		}
 	}
 }
+.archive {
+	#primary {
+		#main {
+			.lsx-to-archive-header {
+				.lsx-to-archive-description {
+					margin-bottom: 2.4rem;
+				}
+			}
+		}
+	}
+}
 
 /*** SEARCH STYLE ***/
 
@@ -885,19 +896,19 @@ footer.content-info {
 	.container {
 		.lsx-hero-unit {
 			aside#wpforms-widget-2 {
-				@media (min-width: 768px) and (max-width: 900px) {
-					width: 65%;
+				@media (max-width: 767px) {
+					width: 80%;
+					min-height: 240px;
 				}
 				.wpforms-container  {
 					.wpforms-field-container {
 						@media (max-width: 767px) {
 							width: 100%;
 						}
-						@media (min-width: 768px) and (max-width: 900px) {
+					}
+					.wpforms-submit-container {
+						@media (max-width: 767px) {
 							width: 100%;
-						}
-						@media only (min-width: 900px) and (max-width: 1024px) {
-							width: 60%;
 						}
 					}
 				}
