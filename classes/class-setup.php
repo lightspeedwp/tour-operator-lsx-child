@@ -1,8 +1,8 @@
 <?php
-namespace africatvl_child\classes;
+namespace tour_operator_child\classes;
 
 /**
- * @package   africatvl_child\classes
+ * @package   tour_operator_child\classes
  * @author    LightSpeed
  * @license   GPL-2.0+
  * @link
@@ -11,7 +11,7 @@ namespace africatvl_child\classes;
 
 /**
  * Class Setup
- * @package africatvl_child\classes
+ * @package tour_operator_child\classes
  */
 class Setup {
 
@@ -20,7 +20,7 @@ class Setup {
 	 *
 	 * @since 1.0.0
 	 *
-	 * @var      object africatvl_child\classes\Setup()
+	 * @var      object tour_operator_child\classes\Setup()
 	 */
 	protected static $instance = null;
 
@@ -40,7 +40,7 @@ class Setup {
 	 *
 	 * @since 1.0.0
 	 *
-	 * @return    object \africatvl_child\classes\Setup()    A single instance of this class.
+	 * @return    object \tour_operator_child\classes\Setup()    A single instance of this class.
 	 */
 	public static function get_instance() {
 		// If the single instance hasn't been set, set it now.

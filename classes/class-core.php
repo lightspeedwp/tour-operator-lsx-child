@@ -1,7 +1,7 @@
 <?php
-namespace africatvl_child\classes;
+namespace tour_operator_child\classes;
 /**
- * @package   africatvl_child\classes
+ * @package   tour_operator_child\classes
  * @author    LightSpeed
  * @license   GPL-2.0+
  * @link
@@ -10,7 +10,7 @@ namespace africatvl_child\classes;
 
 /**
  * Class Core
- * @package africatvl_child\classes
+ * @package tour_operator_child\classes
  */
 class Core {
 
@@ -19,27 +19,27 @@ class Core {
 	 *
 	 * @since 1.0.0
 	 *
-	 * @var      object africatvl_child\classes\Core()
+	 * @var      object tour_operator_child\classes\Core()
 	 */
 	protected static $instance = null;
 
 	/**
-	 * @var object africatvl_child\classes\Setup();
+	 * @var object tour_operator_child\classes\Setup();
 	 */
 	public $setup;
 
 	/**
-	 * @var object africatvl_child\classes\Admin();
+	 * @var object tour_operator_child\classes\Admin();
 	 */
 	public $admin;
 
 	/**
-	 * @var object africatvl_child\classes\Frontend();
+	 * @var object tour_operator_child\classes\Frontend();
 	 */
 	public $frontend;
 
 	/**
-	 * @var object africatvl_child\classes\Search();
+	 * @var object tour_operator_child\classes\Search();
 	 */
 	public $search;
 
@@ -66,7 +66,7 @@ class Core {
 	 *
 	 * @since 1.0.0
 	 *
-	 * @return    object africatvl_child\classes\Core()    A single instance of this class.
+	 * @return    object tour_operator_child\classes\Core()    A single instance of this class.
 	 */
 	public static function get_instance() {
 

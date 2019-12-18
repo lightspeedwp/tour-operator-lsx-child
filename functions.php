@@ -1,9 +1,9 @@
 <?php
 /**
- * Africatvl functions
+ * Tour Operator Child Theme Functions
  *
- * @package 	africatvl-child
+ * @package 	tour-operator-lsx-child
  */
 
 require get_stylesheet_directory() . '/classes/class-core.php';
-$theme_instance = \africatvl_child\classes\Core::get_instance();
+$theme_instance = \tour_operator_child\classes\Core::get_instance();

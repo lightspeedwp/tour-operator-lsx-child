@@ -1,4 +1,4 @@
-# africatvl-child
+# tour-operator-lsx-child
 
 ## Install NPM
 https://nodejs.org/en/

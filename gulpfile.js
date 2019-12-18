@@ -45,19 +45,19 @@ gulp.task('wordpress-pot', function() {
 	return gulp.src('**/*.php')
 		.pipe(sort())
 		.pipe(wppot({
-			domain: 'africatvl-child',
-			package: 'africatvl-child',
+			domain: 'tour-operator-lsx-child',
+			package: 'tour-operator-lsx-child',
 			team: 'LightSpeed <webmaster@lsdev.biz>'
 		}))
-		.pipe(gulp.dest('languages/africatvl-child.pot'));
+		.pipe(gulp.dest('languages/tour-operator-lsx-child.pot'));
 });
 
 gulp.task('wordpress-po', function() {
 	return gulp.src('**/*.php')
 		.pipe(sort())
 		.pipe(wppot({
-			domain: 'africatvl-child',
-			package: 'africatvl-child',
+			domain: 'tour-operator-lsx-child',
+			package: 'tour-operator-lsx-child',
 			team: 'LightSpeed <webmaster@lsdev.biz>'
 		}))
 		.pipe(gulp.dest('languages/en_EN.po'));
