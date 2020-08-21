@@ -1,5 +1,5 @@
 sudo: false
-dist: trusty
+dist: focal
 
 language: php
 
@@ -20,6 +20,7 @@ matrix:
       env: WP_VERSION=trunk
     - php: 7.4
       env: WP_TRAVISCI=phpcs
+      name: Coding Standards
 
 before_script:
   - export PATH="$HOME/.composer/vendor/bin:$PATH"
