@@ -1,2 +1,5 @@
 node_modules
-africatvl-child.sublime-workspace
+.sass-cache
+.idea
+*.sublime-workspace
+package-lock.json
