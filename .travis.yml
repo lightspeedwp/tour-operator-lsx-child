@@ -24,9 +24,15 @@ matrix:
     - php: 7.4
       env: WP_VERSION=trunk
       name: WordPress (Trunk) - Unit Tests
+    - php: nightly
+      env: WP_VERSION=latest
+      name: Bleeding Edge
     - php: 7.4
       env: WP_TRAVISCI=phpcs
       name: Coding Standards
+  allow_failures:
+    - name: WordPress (Trunk) - Unit Tests
+    - name: Bleeding Edge
 
 before_script:
   - export PATH="$HOME/.composer/vendor/bin:$PATH"
