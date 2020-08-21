@@ -1,7 +1,8 @@
-sudo: false
+language: php
 dist: focal
 
-language: php
+services:
+    - mysql
 
 notifications:
   email:
@@ -11,6 +12,9 @@ notifications:
 cache:
   directories:
     - $HOME/.composer/cache
+
+php:
+  - 7.4
 
 matrix:
   include:
