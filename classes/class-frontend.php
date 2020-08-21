@@ -47,7 +47,7 @@ class Frontend {
 	public static function get_instance() {
 		// If the single instance hasn't been set, set it now.
 		if ( null == self::$instance ) {
-			self::$instance = new self;
+			self::$instance = new self();
 		}
 		return self::$instance;
 	}
@@ -55,8 +55,8 @@ class Frontend {
 	/**
 	 * Enqueues the parent and the child theme styles.
 	 *
-	 * @package 	africatvl-child
-	 * @subpackage	setup
+	 * @package     africatvl-child
+	 * @subpackage  setup
 	 */
 	function scripts() {
 		// Fonts from LSX Theme. Add these lines if your website will use a different font.

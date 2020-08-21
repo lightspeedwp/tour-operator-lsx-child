@@ -2,9 +2,9 @@
 /**
  * Team Widget Content Part
  *
- * @package 	tour-operator
- * @category	team
- * @subpackage	widget
+ * @package     tour-operator
+ * @category    team
+ * @subpackage  widget
  */
 
 global $disable_placeholder, $disable_text, $post,  $disable_view_more;
@@ -24,16 +24,28 @@ if ( $has_single ) {
 <article <?php post_class(); ?>>
 	<?php if ( empty( $disable_placeholder ) ) { ?>
 		<div class="lsx-to-widget-thumb">
-			<?php if ( $has_single ) { ?><a href="<?php echo esc_url( $permalink ); ?>"><?php } ?>
+			<?php 
+            if ( $has_single ) {
+?>
+<a href="<?php echo esc_url( $permalink ); ?>"><?php } ?>
 				<?php lsx_thumbnail( 'lsx-thumbnail-square' ); ?>
-			<?php if ( $has_single ) { ?></a><?php } ?>
+			<?php 
+            if ( $has_single ) {
+?>
+</a><?php } ?>
 		</div>
 	<?php } ?>
 
 	<h4 class="lsx-to-widget-title text-center">
-		<?php if ( $has_single ) { ?><a href="<?php echo esc_url( $permalink ); ?>"><?php } ?>
+		<?php 
+        if ( $has_single ) {
+?>
+<a href="<?php echo esc_url( $permalink ); ?>"><?php } ?>
 			<?php the_title(); ?>
-		<?php if ( $has_single ) { ?></a><?php } ?>
+		<?php 
+        if ( $has_single ) {
+?>
+</a><?php } ?>
 	</h4>
 
 	<?php
