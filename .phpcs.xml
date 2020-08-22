@@ -31,6 +31,7 @@
 		<exclude name="Generic.WhiteSpace" />
 		<exclude name="Squiz.WhiteSpace" />
 		<exclude name="Squiz.Scope.MethodScope.Missing" />
+        <exclude name="WordPress.WP.EnqueuedResourceParameters.MissingVersion" />
 		
 		<!-- Not interested in whitespace issues at the moment -->
 		<exclude name="PEAR.Functions.FunctionCallSignature" />
